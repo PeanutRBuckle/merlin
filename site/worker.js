@@ -1,0 +1,2 @@
+importScripts('data-core.js');
+onmessage=event=>{try{const m=event.data;let data;if(m.action==='convert')data=MerlinData.convert(m.files);else if(m.action==='validate')data=MerlinData.validate(m.data);else if(m.action==='enrich')data=MerlinData.mergeEnrichment(m.data,m.side);else throw Error('Unknown local operation.');postMessage({data});}catch(e){postMessage({error:e.message||'Could not process this file.'})}};

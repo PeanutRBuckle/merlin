@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Merlin enrichment sidecar",
+  "type": "object",
+  "required": [
+    "format",
+    "version",
+    "tracks"
+  ],
+  "properties": {
+    "format": {
+      "const": "merlin-enrichment"
+    },
+    "version": {
+      "const": 1
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "spotify_id"
+        ],
+        "properties": {
+          "spotify_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9]{22}$"
+          },
+          "features": {
+            "type": "object",
+            "properties": {
+              "energy": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "danceability": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "valence": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "acousticness": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "instrumentalness": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "speechiness": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              },
+              "loudness": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": -100,
+                "maximum": 10
+              },
+              "tempo": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 400
+              }
+            }
+          },
+          "lastfm": {
+            "type": "object",
+            "properties": {
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "families": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

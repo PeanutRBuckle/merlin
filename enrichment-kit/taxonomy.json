@@ -1,0 +1,2845 @@
+{
+  "version": "lastfm-track-v1",
+  "minimum_source_weight": 5,
+  "effective_tag_mapping": {
+    "2 step": {
+      "canonical_genre": "2 step",
+      "family": "Electronic"
+    },
+    "2-step": {
+      "canonical_genre": "2-step",
+      "family": "Electronic"
+    },
+    "8 bit": {
+      "canonical_genre": "8 bit",
+      "family": "Soundtrack/Stage"
+    },
+    "8-bit": {
+      "canonical_genre": "8-bit",
+      "family": "Soundtrack/Stage"
+    },
+    "8bit": {
+      "canonical_genre": "8bit",
+      "family": "Soundtrack/Stage"
+    },
+    "abstract hip hop": {
+      "canonical_genre": "abstract hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "abstract hip-hop": {
+      "canonical_genre": "abstract hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "acid house": {
+      "canonical_genre": "acid house",
+      "family": "Electronic"
+    },
+    "acid jazz": {
+      "canonical_genre": "acid jazz",
+      "family": "Jazz"
+    },
+    "acid rock": {
+      "canonical_genre": "acid rock",
+      "family": "Rock"
+    },
+    "acid techno": {
+      "canonical_genre": "acid techno",
+      "family": "Electronic"
+    },
+    "acoustic": {
+      "canonical_genre": "acoustic",
+      "family": "Folk/Acoustic"
+    },
+    "acoustic blues": {
+      "canonical_genre": "acoustic blues",
+      "family": "Blues"
+    },
+    "acoustic folk": {
+      "canonical_genre": "acoustic folk",
+      "family": "Folk/Acoustic"
+    },
+    "adult contemporary": {
+      "canonical_genre": "adult contemporary",
+      "family": "Pop"
+    },
+    "afro house": {
+      "canonical_genre": "afro house",
+      "family": "Electronic"
+    },
+    "afro-beat": {
+      "canonical_genre": "afro-beat",
+      "family": "World/Regional"
+    },
+    "afrobeat": {
+      "canonical_genre": "afrobeat",
+      "family": "World/Regional"
+    },
+    "afrobeats": {
+      "canonical_genre": "afrobeats",
+      "family": "World/Regional"
+    },
+    "aggrotech": {
+      "canonical_genre": "aggrotech",
+      "family": "Electronic"
+    },
+    "alt country": {
+      "canonical_genre": "alt country",
+      "family": "Country/Americana"
+    },
+    "alt rock": {
+      "canonical_genre": "alt rock",
+      "family": "Rock"
+    },
+    "alt-country": {
+      "canonical_genre": "alt-country",
+      "family": "Country/Americana"
+    },
+    "alternative": {
+      "canonical_genre": "alternative",
+      "family": "Rock"
+    },
+    "alternative country": {
+      "canonical_genre": "alternative country",
+      "family": "Country/Americana"
+    },
+    "alternative hip hop": {
+      "canonical_genre": "alternative hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "alternative hip-hop": {
+      "canonical_genre": "alternative hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "alternative metal": {
+      "canonical_genre": "alternative metal",
+      "family": "Metal"
+    },
+    "alternative r&b": {
+      "canonical_genre": "alternative r&b",
+      "family": "R&B/Soul/Funk"
+    },
+    "alternative rnb": {
+      "canonical_genre": "alternative r&b",
+      "family": "R&B/Soul/Funk"
+    },
+    "alternative rock": {
+      "canonical_genre": "alternative rock",
+      "family": "Rock"
+    },
+    "amapiano": {
+      "canonical_genre": "amapiano",
+      "family": "World/Regional"
+    },
+    "ambient": {
+      "canonical_genre": "ambient",
+      "family": "Ambient"
+    },
+    "ambient dub": {
+      "canonical_genre": "ambient dub",
+      "family": "Ambient"
+    },
+    "ambient house": {
+      "canonical_genre": "ambient house",
+      "family": "Ambient"
+    },
+    "ambient pop": {
+      "canonical_genre": "ambient pop",
+      "family": "Pop"
+    },
+    "ambient techno": {
+      "canonical_genre": "ambient techno",
+      "family": "Ambient"
+    },
+    "americana": {
+      "canonical_genre": "americana",
+      "family": "Country/Americana"
+    },
+    "anarcho punk": {
+      "canonical_genre": "anarcho punk",
+      "family": "Punk"
+    },
+    "anarcho-punk": {
+      "canonical_genre": "anarcho-punk",
+      "family": "Punk"
+    },
+    "anti-folk": {
+      "canonical_genre": "anti-folk",
+      "family": "Indie/Alternative"
+    },
+    "antifolk": {
+      "canonical_genre": "antifolk",
+      "family": "Indie/Alternative"
+    },
+    "aor": {
+      "canonical_genre": "aor",
+      "family": "Rock"
+    },
+    "appalachian folk": {
+      "canonical_genre": "appalachian folk",
+      "family": "Folk/Acoustic"
+    },
+    "arabic classical": {
+      "canonical_genre": "arabic classical",
+      "family": "World/Regional"
+    },
+    "arena rock": {
+      "canonical_genre": "arena rock",
+      "family": "Rock"
+    },
+    "art pop": {
+      "canonical_genre": "art pop",
+      "family": "Pop"
+    },
+    "art punk": {
+      "canonical_genre": "art punk",
+      "family": "Punk"
+    },
+    "art rock": {
+      "canonical_genre": "art rock",
+      "family": "Rock"
+    },
+    "art-pop": {
+      "canonical_genre": "art-pop",
+      "family": "Pop"
+    },
+    "asmr": {
+      "canonical_genre": "asmr",
+      "family": "Spoken/Non-music"
+    },
+    "atmospheric black metal": {
+      "canonical_genre": "atmospheric black metal",
+      "family": "Metal"
+    },
+    "audiobook": {
+      "canonical_genre": "audiobook",
+      "family": "Spoken/Non-music"
+    },
+    "audiobooks": {
+      "canonical_genre": "audiobooks",
+      "family": "Spoken/Non-music"
+    },
+    "avant garde": {
+      "canonical_genre": "avant garde",
+      "family": "Experimental/Avant-garde"
+    },
+    "avant garde jazz": {
+      "canonical_genre": "avant garde jazz",
+      "family": "Jazz"
+    },
+    "avant garde metal": {
+      "canonical_genre": "avant garde metal",
+      "family": "Metal"
+    },
+    "avant-folk": {
+      "canonical_genre": "avant-folk",
+      "family": "Folk/Acoustic"
+    },
+    "avant-garde": {
+      "canonical_genre": "avant-garde",
+      "family": "Experimental/Avant-garde"
+    },
+    "avant-garde jazz": {
+      "canonical_genre": "avant-garde jazz",
+      "family": "Jazz"
+    },
+    "avant-garde metal": {
+      "canonical_genre": "avant-garde metal",
+      "family": "Metal"
+    },
+    "avant-prog": {
+      "canonical_genre": "avant-prog",
+      "family": "Rock"
+    },
+    "avantgarde": {
+      "canonical_genre": "avantgarde",
+      "family": "Experimental/Avant-garde"
+    },
+    "bachata": {
+      "canonical_genre": "bachata",
+      "family": "Latin"
+    },
+    "baggy": {
+      "canonical_genre": "baggy",
+      "family": "Rock"
+    },
+    "balearic": {
+      "canonical_genre": "balearic",
+      "family": "Electronic"
+    },
+    "balkan": {
+      "canonical_genre": "balkan",
+      "family": "World/Regional"
+    },
+    "balkan brass": {
+      "canonical_genre": "balkan brass",
+      "family": "World/Regional"
+    },
+    "baroque": {
+      "canonical_genre": "baroque",
+      "family": "Classical"
+    },
+    "baroque music": {
+      "canonical_genre": "baroque music",
+      "family": "Classical"
+    },
+    "baroque pop": {
+      "canonical_genre": "baroque pop",
+      "family": "Indie/Alternative"
+    },
+    "bass music": {
+      "canonical_genre": "bass music",
+      "family": "Electronic"
+    },
+    "bassline": {
+      "canonical_genre": "bassline",
+      "family": "Electronic"
+    },
+    "bebop": {
+      "canonical_genre": "bebop",
+      "family": "Jazz"
+    },
+    "bedroom pop": {
+      "canonical_genre": "bedroom pop",
+      "family": "Indie/Alternative"
+    },
+    "berlin school": {
+      "canonical_genre": "berlin school",
+      "family": "Electronic"
+    },
+    "bhangra": {
+      "canonical_genre": "bhangra",
+      "family": "World/Regional"
+    },
+    "big band": {
+      "canonical_genre": "big band",
+      "family": "Jazz"
+    },
+    "big beat": {
+      "canonical_genre": "big beat",
+      "family": "Electronic"
+    },
+    "black metal": {
+      "canonical_genre": "black metal",
+      "family": "Metal"
+    },
+    "blackened death metal": {
+      "canonical_genre": "blackened death metal",
+      "family": "Metal"
+    },
+    "blackgaze": {
+      "canonical_genre": "blackgaze",
+      "family": "Metal"
+    },
+    "blue eyed soul": {
+      "canonical_genre": "blue eyed soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "blue-eyed soul": {
+      "canonical_genre": "blue-eyed soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "bluegrass": {
+      "canonical_genre": "bluegrass",
+      "family": "Country/Americana"
+    },
+    "blues": {
+      "canonical_genre": "blues",
+      "family": "Blues"
+    },
+    "blues rock": {
+      "canonical_genre": "blues rock",
+      "family": "Rock"
+    },
+    "bolero": {
+      "canonical_genre": "bolero",
+      "family": "Latin"
+    },
+    "bollywood": {
+      "canonical_genre": "bollywood",
+      "family": "World/Regional"
+    },
+    "boogie": {
+      "canonical_genre": "boogie",
+      "family": "R&B/Soul/Funk"
+    },
+    "boogie woogie": {
+      "canonical_genre": "boogie woogie",
+      "family": "Blues"
+    },
+    "boogie-woogie": {
+      "canonical_genre": "boogie-woogie",
+      "family": "Blues"
+    },
+    "boom bap": {
+      "canonical_genre": "boom bap",
+      "family": "Hip-Hop/Rap"
+    },
+    "boom-bap": {
+      "canonical_genre": "boom-bap",
+      "family": "Hip-Hop/Rap"
+    },
+    "bop": {
+      "canonical_genre": "bop",
+      "family": "Jazz"
+    },
+    "bossa nova": {
+      "canonical_genre": "bossa nova",
+      "family": "Latin"
+    },
+    "bossa-nova": {
+      "canonical_genre": "bossa-nova",
+      "family": "Latin"
+    },
+    "brazilian funk": {
+      "canonical_genre": "brazilian funk",
+      "family": "Latin"
+    },
+    "brazilian jazz": {
+      "canonical_genre": "brazilian jazz",
+      "family": "Latin"
+    },
+    "breakbeat": {
+      "canonical_genre": "breakbeat",
+      "family": "Electronic"
+    },
+    "breakcore": {
+      "canonical_genre": "breakcore",
+      "family": "Electronic"
+    },
+    "breaks": {
+      "canonical_genre": "breaks",
+      "family": "Electronic"
+    },
+    "british blues": {
+      "canonical_genre": "british blues",
+      "family": "Blues"
+    },
+    "british folk": {
+      "canonical_genre": "british folk",
+      "family": "Folk/Acoustic"
+    },
+    "britpop": {
+      "canonical_genre": "britpop",
+      "family": "Rock"
+    },
+    "bro-country": {
+      "canonical_genre": "bro-country",
+      "family": "Country/Americana"
+    },
+    "broadway": {
+      "canonical_genre": "broadway",
+      "family": "Soundtrack/Stage"
+    },
+    "brostep": {
+      "canonical_genre": "brostep",
+      "family": "Electronic"
+    },
+    "brutal death metal": {
+      "canonical_genre": "brutal death metal",
+      "family": "Metal"
+    },
+    "bubblegum pop": {
+      "canonical_genre": "bubblegum pop",
+      "family": "Pop"
+    },
+    "c-pop": {
+      "canonical_genre": "c-pop",
+      "family": "Pop"
+    },
+    "canterbury scene": {
+      "canonical_genre": "canterbury scene",
+      "family": "Rock"
+    },
+    "cantopop": {
+      "canonical_genre": "cantopop",
+      "family": "Pop"
+    },
+    "carnatic": {
+      "canonical_genre": "carnatic",
+      "family": "World/Regional"
+    },
+    "celtic": {
+      "canonical_genre": "celtic",
+      "family": "Folk/Acoustic"
+    },
+    "celtic folk": {
+      "canonical_genre": "celtic folk",
+      "family": "Folk/Acoustic"
+    },
+    "chamber folk": {
+      "canonical_genre": "chamber folk",
+      "family": "Folk/Acoustic"
+    },
+    "chamber music": {
+      "canonical_genre": "chamber music",
+      "family": "Classical"
+    },
+    "chamber pop": {
+      "canonical_genre": "chamber pop",
+      "family": "Indie/Alternative"
+    },
+    "chanson": {
+      "canonical_genre": "chanson",
+      "family": "Pop"
+    },
+    "chicago blues": {
+      "canonical_genre": "chicago blues",
+      "family": "Blues"
+    },
+    "children's music": {
+      "canonical_genre": "children's music",
+      "family": "Children/Seasonal"
+    },
+    "childrens music": {
+      "canonical_genre": "childrens music",
+      "family": "Children/Seasonal"
+    },
+    "chill out": {
+      "canonical_genre": "chill out",
+      "family": "Electronic"
+    },
+    "chillout": {
+      "canonical_genre": "chillout",
+      "family": "Electronic"
+    },
+    "chillstep": {
+      "canonical_genre": "chillstep",
+      "family": "Electronic"
+    },
+    "chillwave": {
+      "canonical_genre": "chillwave",
+      "family": "Electronic"
+    },
+    "chiptune": {
+      "canonical_genre": "chiptune",
+      "family": "Soundtrack/Stage"
+    },
+    "choral": {
+      "canonical_genre": "choral",
+      "family": "Classical"
+    },
+    "christmas": {
+      "canonical_genre": "christmas",
+      "family": "Children/Seasonal"
+    },
+    "christmas music": {
+      "canonical_genre": "christmas music",
+      "family": "Children/Seasonal"
+    },
+    "city pop": {
+      "canonical_genre": "city pop",
+      "family": "Pop"
+    },
+    "classic country": {
+      "canonical_genre": "classic country",
+      "family": "Country/Americana"
+    },
+    "classic rock": {
+      "canonical_genre": "classic rock",
+      "family": "Rock"
+    },
+    "classical": {
+      "canonical_genre": "classical",
+      "family": "Classical"
+    },
+    "classical piano": {
+      "canonical_genre": "classical piano",
+      "family": "Classical"
+    },
+    "cloud rap": {
+      "canonical_genre": "cloud rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "cocktail": {
+      "canonical_genre": "cocktail",
+      "family": "Easy Listening/Lounge"
+    },
+    "coldwave": {
+      "canonical_genre": "coldwave",
+      "family": "Rock"
+    },
+    "comedy": {
+      "canonical_genre": "comedy",
+      "family": "Spoken/Non-music"
+    },
+    "conscious hip hop": {
+      "canonical_genre": "conscious hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "conscious hip-hop": {
+      "canonical_genre": "conscious hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "conscious rap": {
+      "canonical_genre": "conscious rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "contemporary classical": {
+      "canonical_genre": "contemporary classical",
+      "family": "Classical"
+    },
+    "contemporary folk": {
+      "canonical_genre": "contemporary folk",
+      "family": "Folk/Acoustic"
+    },
+    "contemporary jazz": {
+      "canonical_genre": "contemporary jazz",
+      "family": "Jazz"
+    },
+    "contemporary r&b": {
+      "canonical_genre": "contemporary r&b",
+      "family": "R&B/Soul/Funk"
+    },
+    "cool jazz": {
+      "canonical_genre": "cool jazz",
+      "family": "Jazz"
+    },
+    "corrido": {
+      "canonical_genre": "corrido",
+      "family": "Latin"
+    },
+    "corrido tumbado": {
+      "canonical_genre": "corrido tumbado",
+      "family": "Latin"
+    },
+    "country": {
+      "canonical_genre": "country",
+      "family": "Country/Americana"
+    },
+    "country blues": {
+      "canonical_genre": "country blues",
+      "family": "Country/Americana"
+    },
+    "country pop": {
+      "canonical_genre": "country pop",
+      "family": "Country/Americana"
+    },
+    "country rock": {
+      "canonical_genre": "country rock",
+      "family": "Rock"
+    },
+    "country soul": {
+      "canonical_genre": "country soul",
+      "family": "Country/Americana"
+    },
+    "crooner": {
+      "canonical_genre": "crooner",
+      "family": "Easy Listening/Lounge"
+    },
+    "crossover prog": {
+      "canonical_genre": "crossover prog",
+      "family": "Rock"
+    },
+    "crunk": {
+      "canonical_genre": "crunk",
+      "family": "Hip-Hop/Rap"
+    },
+    "crust": {
+      "canonical_genre": "crust",
+      "family": "Punk"
+    },
+    "crust punk": {
+      "canonical_genre": "crust punk",
+      "family": "Punk"
+    },
+    "cumbia": {
+      "canonical_genre": "cumbia",
+      "family": "Latin"
+    },
+    "cumbia villera": {
+      "canonical_genre": "cumbia villera",
+      "family": "Latin"
+    },
+    "dance": {
+      "canonical_genre": "dance",
+      "family": "Electronic"
+    },
+    "dance music": {
+      "canonical_genre": "dance music",
+      "family": "Electronic"
+    },
+    "dance pop": {
+      "canonical_genre": "dance pop",
+      "family": "Pop"
+    },
+    "dance punk": {
+      "canonical_genre": "dance punk",
+      "family": "Electronic"
+    },
+    "dance rock": {
+      "canonical_genre": "dance rock",
+      "family": "Electronic"
+    },
+    "dance-pop": {
+      "canonical_genre": "dance-pop",
+      "family": "Pop"
+    },
+    "dance-punk": {
+      "canonical_genre": "dance punk",
+      "family": "Electronic"
+    },
+    "dance-rock": {
+      "canonical_genre": "dance-rock",
+      "family": "Electronic"
+    },
+    "dancehall": {
+      "canonical_genre": "dancehall",
+      "family": "Reggae/Ska"
+    },
+    "dark ambient": {
+      "canonical_genre": "dark ambient",
+      "family": "Ambient"
+    },
+    "dark folk": {
+      "canonical_genre": "dark folk",
+      "family": "Folk/Acoustic"
+    },
+    "darksynth": {
+      "canonical_genre": "darksynth",
+      "family": "Electronic"
+    },
+    "darkwave": {
+      "canonical_genre": "darkwave",
+      "family": "Rock"
+    },
+    "death metal": {
+      "canonical_genre": "death metal",
+      "family": "Metal"
+    },
+    "deathcore": {
+      "canonical_genre": "deathcore",
+      "family": "Metal"
+    },
+    "deep house": {
+      "canonical_genre": "deep house",
+      "family": "Electronic"
+    },
+    "delta blues": {
+      "canonical_genre": "delta blues",
+      "family": "Blues"
+    },
+    "desert rock": {
+      "canonical_genre": "desert rock",
+      "family": "Rock"
+    },
+    "detroit techno": {
+      "canonical_genre": "detroit techno",
+      "family": "Electronic"
+    },
+    "digital hardcore": {
+      "canonical_genre": "digital hardcore",
+      "family": "Electronic"
+    },
+    "dirty south": {
+      "canonical_genre": "dirty south",
+      "family": "Hip-Hop/Rap"
+    },
+    "disco": {
+      "canonical_genre": "disco",
+      "family": "Electronic"
+    },
+    "disco house": {
+      "canonical_genre": "disco house",
+      "family": "Electronic"
+    },
+    "dixieland": {
+      "canonical_genre": "dixieland",
+      "family": "Jazz"
+    },
+    "djent": {
+      "canonical_genre": "djent",
+      "family": "Metal"
+    },
+    "dnb": {
+      "canonical_genre": "drum and bass",
+      "family": "Electronic"
+    },
+    "doo wop": {
+      "canonical_genre": "doo wop",
+      "family": "R&B/Soul/Funk"
+    },
+    "doo-wop": {
+      "canonical_genre": "doo-wop",
+      "family": "R&B/Soul/Funk"
+    },
+    "doom": {
+      "canonical_genre": "doom",
+      "family": "Metal"
+    },
+    "doom metal": {
+      "canonical_genre": "doom metal",
+      "family": "Metal"
+    },
+    "downtempo": {
+      "canonical_genre": "downtempo",
+      "family": "Electronic"
+    },
+    "dream pop": {
+      "canonical_genre": "dream pop",
+      "family": "Rock"
+    },
+    "dreampop": {
+      "canonical_genre": "dreampop",
+      "family": "Rock"
+    },
+    "drill": {
+      "canonical_genre": "drill",
+      "family": "Hip-Hop/Rap"
+    },
+    "drill and bass": {
+      "canonical_genre": "drill and bass",
+      "family": "Electronic"
+    },
+    "drone": {
+      "canonical_genre": "drone",
+      "family": "Ambient"
+    },
+    "drone metal": {
+      "canonical_genre": "drone metal",
+      "family": "Metal"
+    },
+    "drum & bass": {
+      "canonical_genre": "drum and bass",
+      "family": "Electronic"
+    },
+    "drum and bass": {
+      "canonical_genre": "drum and bass",
+      "family": "Electronic"
+    },
+    "dub": {
+      "canonical_genre": "dub",
+      "family": "Reggae/Ska"
+    },
+    "dub techno": {
+      "canonical_genre": "dub techno",
+      "family": "Electronic"
+    },
+    "dubstep": {
+      "canonical_genre": "dubstep",
+      "family": "Electronic"
+    },
+    "early music": {
+      "canonical_genre": "early music",
+      "family": "Classical"
+    },
+    "east coast hip hop": {
+      "canonical_genre": "east coast hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "east coast rap": {
+      "canonical_genre": "east coast rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "easy listening": {
+      "canonical_genre": "easy listening",
+      "family": "Easy Listening/Lounge"
+    },
+    "ebm": {
+      "canonical_genre": "ebm",
+      "family": "Electronic"
+    },
+    "edm": {
+      "canonical_genre": "edm",
+      "family": "Electronic"
+    },
+    "electric blues": {
+      "canonical_genre": "electric blues",
+      "family": "Blues"
+    },
+    "electro": {
+      "canonical_genre": "electro",
+      "family": "Electronic"
+    },
+    "electro house": {
+      "canonical_genre": "electro house",
+      "family": "Electronic"
+    },
+    "electro jazz": {
+      "canonical_genre": "electro jazz",
+      "family": "Jazz"
+    },
+    "electro pop": {
+      "canonical_genre": "electropop",
+      "family": "Electronic"
+    },
+    "electro swing": {
+      "canonical_genre": "electro swing",
+      "family": "Electronic"
+    },
+    "electro-acoustic": {
+      "canonical_genre": "electro-acoustic",
+      "family": "Experimental/Avant-garde"
+    },
+    "electro-industrial": {
+      "canonical_genre": "electro-industrial",
+      "family": "Electronic"
+    },
+    "electroacoustic": {
+      "canonical_genre": "electroacoustic",
+      "family": "Experimental/Avant-garde"
+    },
+    "electroclash": {
+      "canonical_genre": "electroclash",
+      "family": "Electronic"
+    },
+    "electronic": {
+      "canonical_genre": "electronic",
+      "family": "Electronic"
+    },
+    "electronica": {
+      "canonical_genre": "electronica",
+      "family": "Electronic"
+    },
+    "electropop": {
+      "canonical_genre": "electropop",
+      "family": "Electronic"
+    },
+    "electropunk": {
+      "canonical_genre": "electropunk",
+      "family": "Electronic"
+    },
+    "emo": {
+      "canonical_genre": "emo",
+      "family": "Punk"
+    },
+    "emo rap": {
+      "canonical_genre": "emo rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "english folk": {
+      "canonical_genre": "english folk",
+      "family": "Folk/Acoustic"
+    },
+    "enka": {
+      "canonical_genre": "enka",
+      "family": "World/Regional"
+    },
+    "ethereal wave": {
+      "canonical_genre": "ethereal wave",
+      "family": "Rock"
+    },
+    "ethio jazz": {
+      "canonical_genre": "ethio jazz",
+      "family": "World/Regional"
+    },
+    "ethio-jazz": {
+      "canonical_genre": "ethio-jazz",
+      "family": "Jazz"
+    },
+    "euro pop": {
+      "canonical_genre": "euro pop",
+      "family": "Pop"
+    },
+    "eurodance": {
+      "canonical_genre": "eurodance",
+      "family": "Pop"
+    },
+    "europop": {
+      "canonical_genre": "europop",
+      "family": "Pop"
+    },
+    "exotica": {
+      "canonical_genre": "exotica",
+      "family": "Easy Listening/Lounge"
+    },
+    "experimental": {
+      "canonical_genre": "experimental",
+      "family": "Experimental/Avant-garde"
+    },
+    "experimental hip hop": {
+      "canonical_genre": "experimental hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "experimental hip-hop": {
+      "canonical_genre": "experimental hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "experimental pop": {
+      "canonical_genre": "experimental pop",
+      "family": "Pop"
+    },
+    "fado": {
+      "canonical_genre": "fado",
+      "family": "World/Regional"
+    },
+    "fidget house": {
+      "canonical_genre": "fidget house",
+      "family": "Electronic"
+    },
+    "field recording": {
+      "canonical_genre": "field recording",
+      "family": "Ambient"
+    },
+    "field recordings": {
+      "canonical_genre": "field recordings",
+      "family": "Ambient"
+    },
+    "film music": {
+      "canonical_genre": "film music",
+      "family": "Soundtrack/Stage"
+    },
+    "film score": {
+      "canonical_genre": "film score",
+      "family": "Soundtrack/Stage"
+    },
+    "flamenco": {
+      "canonical_genre": "flamenco",
+      "family": "Latin"
+    },
+    "folk": {
+      "canonical_genre": "folk",
+      "family": "Folk/Acoustic"
+    },
+    "folk metal": {
+      "canonical_genre": "folk metal",
+      "family": "Metal"
+    },
+    "folk music": {
+      "canonical_genre": "folk music",
+      "family": "Folk/Acoustic"
+    },
+    "folk pop": {
+      "canonical_genre": "folk pop",
+      "family": "Folk/Acoustic"
+    },
+    "folk punk": {
+      "canonical_genre": "folk punk",
+      "family": "Punk"
+    },
+    "folk rock": {
+      "canonical_genre": "folk rock",
+      "family": "Rock"
+    },
+    "folk-rock": {
+      "canonical_genre": "folk-rock",
+      "family": "Rock"
+    },
+    "footwork": {
+      "canonical_genre": "footwork",
+      "family": "Electronic"
+    },
+    "forro": {
+      "canonical_genre": "forro",
+      "family": "Latin"
+    },
+    "forró": {
+      "canonical_genre": "forró",
+      "family": "Latin"
+    },
+    "freak folk": {
+      "canonical_genre": "freak folk",
+      "family": "Folk/Acoustic"
+    },
+    "free folk": {
+      "canonical_genre": "free folk",
+      "family": "Folk/Acoustic"
+    },
+    "free funk": {
+      "canonical_genre": "free funk",
+      "family": "R&B/Soul/Funk"
+    },
+    "free improvisation": {
+      "canonical_genre": "free improvisation",
+      "family": "Experimental/Avant-garde"
+    },
+    "free jazz": {
+      "canonical_genre": "free jazz",
+      "family": "Jazz"
+    },
+    "french house": {
+      "canonical_genre": "french house",
+      "family": "Electronic"
+    },
+    "french pop": {
+      "canonical_genre": "french pop",
+      "family": "Pop"
+    },
+    "french touch": {
+      "canonical_genre": "french touch",
+      "family": "Electronic"
+    },
+    "funeral doom": {
+      "canonical_genre": "funeral doom",
+      "family": "Metal"
+    },
+    "funk": {
+      "canonical_genre": "funk",
+      "family": "R&B/Soul/Funk"
+    },
+    "funk carioca": {
+      "canonical_genre": "funk carioca",
+      "family": "Latin"
+    },
+    "funk metal": {
+      "canonical_genre": "funk metal",
+      "family": "R&B/Soul/Funk"
+    },
+    "funk rock": {
+      "canonical_genre": "funk rock",
+      "family": "R&B/Soul/Funk"
+    },
+    "funky house": {
+      "canonical_genre": "funky house",
+      "family": "Electronic"
+    },
+    "fusion": {
+      "canonical_genre": "fusion",
+      "family": "Jazz"
+    },
+    "future bass": {
+      "canonical_genre": "future bass",
+      "family": "Electronic"
+    },
+    "future funk": {
+      "canonical_genre": "future funk",
+      "family": "Electronic"
+    },
+    "future house": {
+      "canonical_genre": "future house",
+      "family": "Electronic"
+    },
+    "futurepop": {
+      "canonical_genre": "futurepop",
+      "family": "Electronic"
+    },
+    "g funk": {
+      "canonical_genre": "g funk",
+      "family": "Hip-Hop/Rap"
+    },
+    "g-funk": {
+      "canonical_genre": "g-funk",
+      "family": "Hip-Hop/Rap"
+    },
+    "gabber": {
+      "canonical_genre": "gabber",
+      "family": "Electronic"
+    },
+    "game music": {
+      "canonical_genre": "game music",
+      "family": "Soundtrack/Stage"
+    },
+    "gamelan": {
+      "canonical_genre": "gamelan",
+      "family": "World/Regional"
+    },
+    "gangsta rap": {
+      "canonical_genre": "gangsta rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "garage house": {
+      "canonical_genre": "garage house",
+      "family": "Electronic"
+    },
+    "garage punk": {
+      "canonical_genre": "garage punk",
+      "family": "Punk"
+    },
+    "garage rock": {
+      "canonical_genre": "garage rock",
+      "family": "Rock"
+    },
+    "garage rock revival": {
+      "canonical_genre": "garage rock revival",
+      "family": "Rock"
+    },
+    "german pop": {
+      "canonical_genre": "german pop",
+      "family": "Pop"
+    },
+    "glam": {
+      "canonical_genre": "glam",
+      "family": "Rock"
+    },
+    "glam metal": {
+      "canonical_genre": "glam metal",
+      "family": "Metal"
+    },
+    "glam rock": {
+      "canonical_genre": "glam rock",
+      "family": "Rock"
+    },
+    "glitch": {
+      "canonical_genre": "glitch",
+      "family": "Electronic"
+    },
+    "glitch hop": {
+      "canonical_genre": "glitch hop",
+      "family": "Electronic"
+    },
+    "glitch pop": {
+      "canonical_genre": "glitch pop",
+      "family": "Pop"
+    },
+    "goa trance": {
+      "canonical_genre": "goa trance",
+      "family": "Electronic"
+    },
+    "goregrind": {
+      "canonical_genre": "goregrind",
+      "family": "Metal"
+    },
+    "gospel": {
+      "canonical_genre": "gospel",
+      "family": "R&B/Soul/Funk"
+    },
+    "gospel soul": {
+      "canonical_genre": "gospel soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "goth": {
+      "canonical_genre": "goth",
+      "family": "Rock"
+    },
+    "goth rock": {
+      "canonical_genre": "goth rock",
+      "family": "Rock"
+    },
+    "gothic": {
+      "canonical_genre": "gothic",
+      "family": "Rock"
+    },
+    "gothic country": {
+      "canonical_genre": "gothic country",
+      "family": "Country/Americana"
+    },
+    "gothic metal": {
+      "canonical_genre": "gothic metal",
+      "family": "Metal"
+    },
+    "gothic rock": {
+      "canonical_genre": "gothic rock",
+      "family": "Rock"
+    },
+    "grime": {
+      "canonical_genre": "grime",
+      "family": "Electronic"
+    },
+    "grindcore": {
+      "canonical_genre": "grindcore",
+      "family": "Metal"
+    },
+    "groove metal": {
+      "canonical_genre": "groove metal",
+      "family": "Metal"
+    },
+    "grunge": {
+      "canonical_genre": "grunge",
+      "family": "Rock"
+    },
+    "gypsy jazz": {
+      "canonical_genre": "gypsy jazz",
+      "family": "Jazz"
+    },
+    "hair metal": {
+      "canonical_genre": "hair metal",
+      "family": "Metal"
+    },
+    "happy hardcore": {
+      "canonical_genre": "happy hardcore",
+      "family": "Electronic"
+    },
+    "hard bop": {
+      "canonical_genre": "hard bop",
+      "family": "Jazz"
+    },
+    "hard rock": {
+      "canonical_genre": "hard rock",
+      "family": "Rock"
+    },
+    "hard techno": {
+      "canonical_genre": "hard techno",
+      "family": "Electronic"
+    },
+    "hard trance": {
+      "canonical_genre": "hard trance",
+      "family": "Electronic"
+    },
+    "hardcore": {
+      "canonical_genre": "hardcore",
+      "family": "Punk"
+    },
+    "hardcore hip hop": {
+      "canonical_genre": "hardcore hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hardcore hip-hop": {
+      "canonical_genre": "hardcore hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hardcore punk": {
+      "canonical_genre": "hardcore punk",
+      "family": "Punk"
+    },
+    "hardcore techno": {
+      "canonical_genre": "hardcore techno",
+      "family": "Electronic"
+    },
+    "hardstyle": {
+      "canonical_genre": "hardstyle",
+      "family": "Electronic"
+    },
+    "harsh noise": {
+      "canonical_genre": "harsh noise",
+      "family": "Experimental/Avant-garde"
+    },
+    "harsh noise wall": {
+      "canonical_genre": "harsh noise wall",
+      "family": "Experimental/Avant-garde"
+    },
+    "heavy metal": {
+      "canonical_genre": "heavy metal",
+      "family": "Metal"
+    },
+    "heavy psych": {
+      "canonical_genre": "heavy psych",
+      "family": "Rock"
+    },
+    "hi-nrg": {
+      "canonical_genre": "hi-nrg",
+      "family": "Electronic"
+    },
+    "highlife": {
+      "canonical_genre": "highlife",
+      "family": "World/Regional"
+    },
+    "hindustani": {
+      "canonical_genre": "hindustani",
+      "family": "World/Regional"
+    },
+    "hip hop": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hip hop/rap": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hip-hop": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hip-hop/rap": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "hiphop": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "holiday music": {
+      "canonical_genre": "holiday music",
+      "family": "Children/Seasonal"
+    },
+    "honky tonk": {
+      "canonical_genre": "honky tonk",
+      "family": "Country/Americana"
+    },
+    "honky-tonk": {
+      "canonical_genre": "honky-tonk",
+      "family": "Country/Americana"
+    },
+    "horror punk": {
+      "canonical_genre": "horror punk",
+      "family": "Punk"
+    },
+    "horrorcore": {
+      "canonical_genre": "horrorcore",
+      "family": "Hip-Hop/Rap"
+    },
+    "house": {
+      "canonical_genre": "house",
+      "family": "Electronic"
+    },
+    "hyperpop": {
+      "canonical_genre": "hyperpop",
+      "family": "Pop"
+    },
+    "idm": {
+      "canonical_genre": "idm",
+      "family": "Electronic"
+    },
+    "impressionism": {
+      "canonical_genre": "impressionism",
+      "family": "Classical"
+    },
+    "improvisation": {
+      "canonical_genre": "improvisation",
+      "family": "Experimental/Avant-garde"
+    },
+    "indian classical": {
+      "canonical_genre": "indian classical",
+      "family": "World/Regional"
+    },
+    "indie": {
+      "canonical_genre": "indie",
+      "family": "Indie/Alternative"
+    },
+    "indie electronic": {
+      "canonical_genre": "indie electronic",
+      "family": "Pop"
+    },
+    "indie folk": {
+      "canonical_genre": "indie folk",
+      "family": "Indie/Alternative"
+    },
+    "indie pop": {
+      "canonical_genre": "indie pop",
+      "family": "Indie/Alternative"
+    },
+    "indie rock": {
+      "canonical_genre": "indie rock",
+      "family": "Rock"
+    },
+    "indie-pop": {
+      "canonical_genre": "indie pop",
+      "family": "Indie/Alternative"
+    },
+    "indietronica": {
+      "canonical_genre": "indietronica",
+      "family": "Electronic"
+    },
+    "industrial": {
+      "canonical_genre": "industrial",
+      "family": "Experimental/Avant-garde"
+    },
+    "industrial dance": {
+      "canonical_genre": "industrial dance",
+      "family": "Electronic"
+    },
+    "industrial hip hop": {
+      "canonical_genre": "industrial hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "industrial hip-hop": {
+      "canonical_genre": "industrial hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "industrial metal": {
+      "canonical_genre": "industrial metal",
+      "family": "Metal"
+    },
+    "industrial music": {
+      "canonical_genre": "industrial music",
+      "family": "Experimental/Avant-garde"
+    },
+    "industrial rock": {
+      "canonical_genre": "industrial rock",
+      "family": "Rock"
+    },
+    "instrumental hip hop": {
+      "canonical_genre": "instrumental hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "instrumental hip-hop": {
+      "canonical_genre": "instrumental hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "instrumental rock": {
+      "canonical_genre": "instrumental rock",
+      "family": "Rock"
+    },
+    "intelligent dance music": {
+      "canonical_genre": "intelligent dance music",
+      "family": "Electronic"
+    },
+    "irish folk": {
+      "canonical_genre": "irish folk",
+      "family": "Folk/Acoustic"
+    },
+    "italo disco": {
+      "canonical_genre": "italo disco",
+      "family": "Electronic"
+    },
+    "j-pop": {
+      "canonical_genre": "j-pop",
+      "family": "Pop"
+    },
+    "jangle pop": {
+      "canonical_genre": "jangle pop",
+      "family": "Rock"
+    },
+    "jazz": {
+      "canonical_genre": "jazz",
+      "family": "Jazz"
+    },
+    "jazz funk": {
+      "canonical_genre": "jazz funk",
+      "family": "R&B/Soul/Funk"
+    },
+    "jazz fusion": {
+      "canonical_genre": "jazz fusion",
+      "family": "Jazz"
+    },
+    "jazz hip hop": {
+      "canonical_genre": "jazz hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "jazz hip-hop": {
+      "canonical_genre": "jazz hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "jazz hop": {
+      "canonical_genre": "jazz hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "jazz manouche": {
+      "canonical_genre": "jazz manouche",
+      "family": "Jazz"
+    },
+    "jazz piano": {
+      "canonical_genre": "jazz piano",
+      "family": "Jazz"
+    },
+    "jazz rap": {
+      "canonical_genre": "jazz rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "jazz rock": {
+      "canonical_genre": "jazz rock",
+      "family": "Jazz"
+    },
+    "jazz-funk": {
+      "canonical_genre": "jazz funk",
+      "family": "R&B/Soul/Funk"
+    },
+    "jazz-fusion": {
+      "canonical_genre": "jazz fusion",
+      "family": "Jazz"
+    },
+    "jazz-hop": {
+      "canonical_genre": "jazz-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "jazz-rock": {
+      "canonical_genre": "jazz-rock",
+      "family": "Jazz"
+    },
+    "jazztronica": {
+      "canonical_genre": "jazztronica",
+      "family": "Jazz"
+    },
+    "jpop": {
+      "canonical_genre": "jpop",
+      "family": "Pop"
+    },
+    "juke": {
+      "canonical_genre": "juke",
+      "family": "Electronic"
+    },
+    "jump blues": {
+      "canonical_genre": "jump blues",
+      "family": "Blues"
+    },
+    "jungle": {
+      "canonical_genre": "jungle",
+      "family": "Electronic"
+    },
+    "k-pop": {
+      "canonical_genre": "k-pop",
+      "family": "Pop"
+    },
+    "klezmer": {
+      "canonical_genre": "klezmer",
+      "family": "World/Regional"
+    },
+    "kosmische": {
+      "canonical_genre": "kosmische",
+      "family": "Electronic"
+    },
+    "kpop": {
+      "canonical_genre": "kpop",
+      "family": "Pop"
+    },
+    "krautrock": {
+      "canonical_genre": "krautrock",
+      "family": "Rock"
+    },
+    "latin": {
+      "canonical_genre": "latin",
+      "family": "Latin"
+    },
+    "latin alternative": {
+      "canonical_genre": "latin alternative",
+      "family": "Latin"
+    },
+    "latin jazz": {
+      "canonical_genre": "latin jazz",
+      "family": "Jazz"
+    },
+    "latin pop": {
+      "canonical_genre": "latin pop",
+      "family": "Latin"
+    },
+    "latin rock": {
+      "canonical_genre": "latin rock",
+      "family": "Latin"
+    },
+    "library music": {
+      "canonical_genre": "library music",
+      "family": "Easy Listening/Lounge"
+    },
+    "liquid drum and bass": {
+      "canonical_genre": "liquid drum and bass",
+      "family": "Electronic"
+    },
+    "liquid funk": {
+      "canonical_genre": "liquid funk",
+      "family": "Electronic"
+    },
+    "lo fi": {
+      "canonical_genre": "lo-fi",
+      "family": "Indie/Alternative"
+    },
+    "lo-fi": {
+      "canonical_genre": "lo-fi",
+      "family": "Indie/Alternative"
+    },
+    "lo-fi house": {
+      "canonical_genre": "lo-fi house",
+      "family": "Electronic"
+    },
+    "lofi": {
+      "canonical_genre": "lo-fi",
+      "family": "Indie/Alternative"
+    },
+    "lofi house": {
+      "canonical_genre": "lofi house",
+      "family": "Electronic"
+    },
+    "lounge": {
+      "canonical_genre": "lounge",
+      "family": "Easy Listening/Lounge"
+    },
+    "lovers rock": {
+      "canonical_genre": "lovers rock",
+      "family": "Reggae/Ska"
+    },
+    "lowercase": {
+      "canonical_genre": "lowercase",
+      "family": "Ambient"
+    },
+    "lullabies": {
+      "canonical_genre": "lullabies",
+      "family": "Children/Seasonal"
+    },
+    "lullaby": {
+      "canonical_genre": "lullaby",
+      "family": "Children/Seasonal"
+    },
+    "madchester": {
+      "canonical_genre": "madchester",
+      "family": "Rock"
+    },
+    "mandopop": {
+      "canonical_genre": "mandopop",
+      "family": "Pop"
+    },
+    "mariachi": {
+      "canonical_genre": "mariachi",
+      "family": "Latin"
+    },
+    "math rock": {
+      "canonical_genre": "math rock",
+      "family": "Rock"
+    },
+    "mathcore": {
+      "canonical_genre": "mathcore",
+      "family": "Metal"
+    },
+    "medieval": {
+      "canonical_genre": "medieval",
+      "family": "Classical"
+    },
+    "meditation": {
+      "canonical_genre": "meditation",
+      "family": "Ambient"
+    },
+    "melodic death metal": {
+      "canonical_genre": "melodic death metal",
+      "family": "Metal"
+    },
+    "melodic dubstep": {
+      "canonical_genre": "melodic dubstep",
+      "family": "Electronic"
+    },
+    "melodic metalcore": {
+      "canonical_genre": "melodic metalcore",
+      "family": "Metal"
+    },
+    "memphis rap": {
+      "canonical_genre": "memphis rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "merengue": {
+      "canonical_genre": "merengue",
+      "family": "Latin"
+    },
+    "metal": {
+      "canonical_genre": "metal",
+      "family": "Metal"
+    },
+    "metalcore": {
+      "canonical_genre": "metalcore",
+      "family": "Metal"
+    },
+    "microhouse": {
+      "canonical_genre": "microhouse",
+      "family": "Electronic"
+    },
+    "microsound": {
+      "canonical_genre": "microsound",
+      "family": "Experimental/Avant-garde"
+    },
+    "midwest emo": {
+      "canonical_genre": "midwest emo",
+      "family": "Punk"
+    },
+    "minimal house": {
+      "canonical_genre": "minimal house",
+      "family": "Electronic"
+    },
+    "minimal techno": {
+      "canonical_genre": "minimal techno",
+      "family": "Electronic"
+    },
+    "minimal wave": {
+      "canonical_genre": "minimal wave",
+      "family": "Rock"
+    },
+    "minimalism": {
+      "canonical_genre": "minimalism",
+      "family": "Classical"
+    },
+    "modal jazz": {
+      "canonical_genre": "modal jazz",
+      "family": "Jazz"
+    },
+    "modern classical": {
+      "canonical_genre": "modern classical",
+      "family": "Classical"
+    },
+    "modern composition": {
+      "canonical_genre": "modern composition",
+      "family": "Classical"
+    },
+    "modern jazz": {
+      "canonical_genre": "modern jazz",
+      "family": "Jazz"
+    },
+    "moombahton": {
+      "canonical_genre": "moombahton",
+      "family": "Electronic"
+    },
+    "motown": {
+      "canonical_genre": "motown",
+      "family": "R&B/Soul/Funk"
+    },
+    "mpb": {
+      "canonical_genre": "mpb",
+      "family": "Latin"
+    },
+    "mumble rap": {
+      "canonical_genre": "mumble rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "musical": {
+      "canonical_genre": "musical",
+      "family": "Soundtrack/Stage"
+    },
+    "musicals": {
+      "canonical_genre": "musicals",
+      "family": "Soundtrack/Stage"
+    },
+    "musique concrete": {
+      "canonical_genre": "musique concrete",
+      "family": "Experimental/Avant-garde"
+    },
+    "musique concrète": {
+      "canonical_genre": "musique concrète",
+      "family": "Experimental/Avant-garde"
+    },
+    "muzak": {
+      "canonical_genre": "muzak",
+      "family": "Easy Listening/Lounge"
+    },
+    "nature sounds": {
+      "canonical_genre": "nature sounds",
+      "family": "Ambient"
+    },
+    "neo soul": {
+      "canonical_genre": "neo-soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "neo-classical": {
+      "canonical_genre": "neo-classical",
+      "family": "Classical"
+    },
+    "neo-folk": {
+      "canonical_genre": "neo-folk",
+      "family": "Folk/Acoustic"
+    },
+    "neo-prog": {
+      "canonical_genre": "neo-prog",
+      "family": "Rock"
+    },
+    "neo-psychedelia": {
+      "canonical_genre": "neo-psychedelia",
+      "family": "Rock"
+    },
+    "neo-soul": {
+      "canonical_genre": "neo-soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "neoclassical": {
+      "canonical_genre": "neoclassical",
+      "family": "Classical"
+    },
+    "neoclassical darkwave": {
+      "canonical_genre": "neoclassical darkwave",
+      "family": "Classical"
+    },
+    "neofolk": {
+      "canonical_genre": "neofolk",
+      "family": "Folk/Acoustic"
+    },
+    "neosoul": {
+      "canonical_genre": "neo-soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "new age": {
+      "canonical_genre": "new age",
+      "family": "Ambient"
+    },
+    "new jack swing": {
+      "canonical_genre": "new jack swing",
+      "family": "R&B/Soul/Funk"
+    },
+    "new rave": {
+      "canonical_genre": "new rave",
+      "family": "Electronic"
+    },
+    "new romantic": {
+      "canonical_genre": "new romantic",
+      "family": "Pop"
+    },
+    "new wave": {
+      "canonical_genre": "new wave",
+      "family": "Rock"
+    },
+    "new-age": {
+      "canonical_genre": "new age",
+      "family": "Ambient"
+    },
+    "no wave": {
+      "canonical_genre": "no wave",
+      "family": "Rock"
+    },
+    "noise": {
+      "canonical_genre": "noise",
+      "family": "Experimental/Avant-garde"
+    },
+    "noise pop": {
+      "canonical_genre": "noise pop",
+      "family": "Indie/Alternative"
+    },
+    "noise rock": {
+      "canonical_genre": "noise rock",
+      "family": "Rock"
+    },
+    "nordic folk": {
+      "canonical_genre": "nordic folk",
+      "family": "Folk/Acoustic"
+    },
+    "northern soul": {
+      "canonical_genre": "northern soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "nu disco": {
+      "canonical_genre": "nu disco",
+      "family": "Electronic"
+    },
+    "nu jazz": {
+      "canonical_genre": "nu jazz",
+      "family": "Jazz"
+    },
+    "nu metal": {
+      "canonical_genre": "nu metal",
+      "family": "Metal"
+    },
+    "nu-disco": {
+      "canonical_genre": "nu-disco",
+      "family": "Electronic"
+    },
+    "nu-jazz": {
+      "canonical_genre": "nu jazz",
+      "family": "Jazz"
+    },
+    "nu-metal": {
+      "canonical_genre": "nu-metal",
+      "family": "Metal"
+    },
+    "nujazz": {
+      "canonical_genre": "nu jazz",
+      "family": "Jazz"
+    },
+    "nwobhm": {
+      "canonical_genre": "nwobhm",
+      "family": "Metal"
+    },
+    "oi": {
+      "canonical_genre": "oi",
+      "family": "Punk"
+    },
+    "oi!": {
+      "canonical_genre": "oi!",
+      "family": "Punk"
+    },
+    "old school hip hop": {
+      "canonical_genre": "old school hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "old school hip-hop": {
+      "canonical_genre": "old school hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "old-school hip-hop": {
+      "canonical_genre": "old-school hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "onkyo": {
+      "canonical_genre": "onkyo",
+      "family": "Experimental/Avant-garde"
+    },
+    "opera": {
+      "canonical_genre": "opera",
+      "family": "Classical"
+    },
+    "operatic": {
+      "canonical_genre": "operatic",
+      "family": "Classical"
+    },
+    "orchestral": {
+      "canonical_genre": "orchestral",
+      "family": "Classical"
+    },
+    "ost": {
+      "canonical_genre": "ost",
+      "family": "Soundtrack/Stage"
+    },
+    "outlaw country": {
+      "canonical_genre": "outlaw country",
+      "family": "Country/Americana"
+    },
+    "outsider house": {
+      "canonical_genre": "outsider house",
+      "family": "Electronic"
+    },
+    "p-funk": {
+      "canonical_genre": "p-funk",
+      "family": "R&B/Soul/Funk"
+    },
+    "pagan metal": {
+      "canonical_genre": "pagan metal",
+      "family": "Metal"
+    },
+    "pfunk": {
+      "canonical_genre": "pfunk",
+      "family": "R&B/Soul/Funk"
+    },
+    "phonk": {
+      "canonical_genre": "phonk",
+      "family": "Hip-Hop/Rap"
+    },
+    "piano jazz": {
+      "canonical_genre": "piano jazz",
+      "family": "Jazz"
+    },
+    "piano rock": {
+      "canonical_genre": "piano rock",
+      "family": "Rock"
+    },
+    "piedmont blues": {
+      "canonical_genre": "piedmont blues",
+      "family": "Blues"
+    },
+    "plunderphonics": {
+      "canonical_genre": "plunderphonics",
+      "family": "Electronic"
+    },
+    "poetry": {
+      "canonical_genre": "poetry",
+      "family": "Spoken/Non-music"
+    },
+    "pop": {
+      "canonical_genre": "pop",
+      "family": "Pop"
+    },
+    "pop punk": {
+      "canonical_genre": "pop punk",
+      "family": "Punk"
+    },
+    "pop rap": {
+      "canonical_genre": "pop rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "pop rock": {
+      "canonical_genre": "pop rock",
+      "family": "Rock"
+    },
+    "pop-punk": {
+      "canonical_genre": "pop-punk",
+      "family": "Punk"
+    },
+    "pop-rock": {
+      "canonical_genre": "pop-rock",
+      "family": "Rock"
+    },
+    "post bop": {
+      "canonical_genre": "post bop",
+      "family": "Jazz"
+    },
+    "post hardcore": {
+      "canonical_genre": "post hardcore",
+      "family": "Punk"
+    },
+    "post metal": {
+      "canonical_genre": "post metal",
+      "family": "Metal"
+    },
+    "post punk": {
+      "canonical_genre": "post-punk",
+      "family": "Rock"
+    },
+    "post punk revival": {
+      "canonical_genre": "post punk revival",
+      "family": "Rock"
+    },
+    "post rock": {
+      "canonical_genre": "post-rock",
+      "family": "Rock"
+    },
+    "post-bop": {
+      "canonical_genre": "post-bop",
+      "family": "Jazz"
+    },
+    "post-classical": {
+      "canonical_genre": "post-classical",
+      "family": "Classical"
+    },
+    "post-disco": {
+      "canonical_genre": "post-disco",
+      "family": "Electronic"
+    },
+    "post-grunge": {
+      "canonical_genre": "post-grunge",
+      "family": "Rock"
+    },
+    "post-hardcore": {
+      "canonical_genre": "post-hardcore",
+      "family": "Punk"
+    },
+    "post-metal": {
+      "canonical_genre": "post-metal",
+      "family": "Metal"
+    },
+    "post-punk": {
+      "canonical_genre": "post-punk",
+      "family": "Rock"
+    },
+    "post-punk revival": {
+      "canonical_genre": "post-punk revival",
+      "family": "Rock"
+    },
+    "post-rock": {
+      "canonical_genre": "post-rock",
+      "family": "Rock"
+    },
+    "power electronics": {
+      "canonical_genre": "power electronics",
+      "family": "Experimental/Avant-garde"
+    },
+    "power metal": {
+      "canonical_genre": "power metal",
+      "family": "Metal"
+    },
+    "power pop": {
+      "canonical_genre": "power pop",
+      "family": "Rock"
+    },
+    "prog metal": {
+      "canonical_genre": "prog metal",
+      "family": "Metal"
+    },
+    "prog rock": {
+      "canonical_genre": "prog rock",
+      "family": "Rock"
+    },
+    "progressive black metal": {
+      "canonical_genre": "progressive black metal",
+      "family": "Metal"
+    },
+    "progressive bluegrass": {
+      "canonical_genre": "progressive bluegrass",
+      "family": "Country/Americana"
+    },
+    "progressive death metal": {
+      "canonical_genre": "progressive death metal",
+      "family": "Metal"
+    },
+    "progressive electronic": {
+      "canonical_genre": "progressive electronic",
+      "family": "Electronic"
+    },
+    "progressive house": {
+      "canonical_genre": "progressive house",
+      "family": "Electronic"
+    },
+    "progressive metal": {
+      "canonical_genre": "progressive metal",
+      "family": "Metal"
+    },
+    "progressive pop": {
+      "canonical_genre": "progressive pop",
+      "family": "Pop"
+    },
+    "progressive rock": {
+      "canonical_genre": "progressive rock",
+      "family": "Rock"
+    },
+    "progressive trance": {
+      "canonical_genre": "progressive trance",
+      "family": "Electronic"
+    },
+    "proto-punk": {
+      "canonical_genre": "proto-punk",
+      "family": "Punk"
+    },
+    "protopunk": {
+      "canonical_genre": "protopunk",
+      "family": "Punk"
+    },
+    "psybient": {
+      "canonical_genre": "psybient",
+      "family": "Electronic"
+    },
+    "psych folk": {
+      "canonical_genre": "psych folk",
+      "family": "Folk/Acoustic"
+    },
+    "psychedelia": {
+      "canonical_genre": "psychedelia",
+      "family": "Rock"
+    },
+    "psychedelic": {
+      "canonical_genre": "psychedelic",
+      "family": "Rock"
+    },
+    "psychedelic folk": {
+      "canonical_genre": "psychedelic folk",
+      "family": "Folk/Acoustic"
+    },
+    "psychedelic pop": {
+      "canonical_genre": "psychedelic pop",
+      "family": "Pop"
+    },
+    "psychedelic rock": {
+      "canonical_genre": "psychedelic rock",
+      "family": "Rock"
+    },
+    "psychedelic soul": {
+      "canonical_genre": "psychedelic soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "psychedelic trance": {
+      "canonical_genre": "psychedelic trance",
+      "family": "Electronic"
+    },
+    "psychobilly": {
+      "canonical_genre": "psychobilly",
+      "family": "Rock"
+    },
+    "psytrance": {
+      "canonical_genre": "psytrance",
+      "family": "Electronic"
+    },
+    "punk": {
+      "canonical_genre": "punk",
+      "family": "Punk"
+    },
+    "punk rock": {
+      "canonical_genre": "punk rock",
+      "family": "Punk"
+    },
+    "qawwali": {
+      "canonical_genre": "qawwali",
+      "family": "World/Regional"
+    },
+    "quiet storm": {
+      "canonical_genre": "quiet storm",
+      "family": "R&B/Soul/Funk"
+    },
+    "r&b": {
+      "canonical_genre": "r&b",
+      "family": "R&B/Soul/Funk"
+    },
+    "raga": {
+      "canonical_genre": "raga",
+      "family": "World/Regional"
+    },
+    "raga rock": {
+      "canonical_genre": "raga rock",
+      "family": "Rock"
+    },
+    "ragga": {
+      "canonical_genre": "ragga",
+      "family": "Reggae/Ska"
+    },
+    "ragtime": {
+      "canonical_genre": "ragtime",
+      "family": "Jazz"
+    },
+    "rai": {
+      "canonical_genre": "rai",
+      "family": "World/Regional"
+    },
+    "ranchera": {
+      "canonical_genre": "ranchera",
+      "family": "Latin"
+    },
+    "rap": {
+      "canonical_genre": "rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "rap metal": {
+      "canonical_genre": "rap metal",
+      "family": "Hip-Hop/Rap"
+    },
+    "rap rock": {
+      "canonical_genre": "rap rock",
+      "family": "Hip-Hop/Rap"
+    },
+    "rap/hip hop": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "rap/hip-hop": {
+      "canonical_genre": "hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "rapcore": {
+      "canonical_genre": "rapcore",
+      "family": "Hip-Hop/Rap"
+    },
+    "raï": {
+      "canonical_genre": "raï",
+      "family": "World/Regional"
+    },
+    "red dirt": {
+      "canonical_genre": "red dirt",
+      "family": "Country/Americana"
+    },
+    "reggae": {
+      "canonical_genre": "reggae",
+      "family": "Reggae/Ska"
+    },
+    "reggae fusion": {
+      "canonical_genre": "reggae fusion",
+      "family": "Reggae/Ska"
+    },
+    "reggaeton": {
+      "canonical_genre": "reggaeton",
+      "family": "Reggae/Ska"
+    },
+    "reggaetón": {
+      "canonical_genre": "reggaetón",
+      "family": "Reggae/Ska"
+    },
+    "regional mexican": {
+      "canonical_genre": "regional mexican",
+      "family": "Latin"
+    },
+    "renaissance": {
+      "canonical_genre": "renaissance",
+      "family": "Classical"
+    },
+    "retrowave": {
+      "canonical_genre": "retrowave",
+      "family": "Electronic"
+    },
+    "rhythm & blues": {
+      "canonical_genre": "rhythm & blues",
+      "family": "R&B/Soul/Funk"
+    },
+    "rhythm and blues": {
+      "canonical_genre": "rhythm and blues",
+      "family": "R&B/Soul/Funk"
+    },
+    "rhythm n blues": {
+      "canonical_genre": "rhythm n blues",
+      "family": "Blues"
+    },
+    "riddim": {
+      "canonical_genre": "riddim",
+      "family": "Electronic"
+    },
+    "riot grrrl": {
+      "canonical_genre": "riot grrrl",
+      "family": "Punk"
+    },
+    "rnb": {
+      "canonical_genre": "r&b",
+      "family": "R&B/Soul/Funk"
+    },
+    "rock": {
+      "canonical_genre": "rock",
+      "family": "Rock"
+    },
+    "rock & roll": {
+      "canonical_genre": "rock & roll",
+      "family": "Rock"
+    },
+    "rock and roll": {
+      "canonical_genre": "rock and roll",
+      "family": "Rock"
+    },
+    "rock n roll": {
+      "canonical_genre": "rock n roll",
+      "family": "Rock"
+    },
+    "rockabilly": {
+      "canonical_genre": "rockabilly",
+      "family": "Rock"
+    },
+    "rocksteady": {
+      "canonical_genre": "rocksteady",
+      "family": "Reggae/Ska"
+    },
+    "romantic classical": {
+      "canonical_genre": "romantic classical",
+      "family": "Classical"
+    },
+    "roots reggae": {
+      "canonical_genre": "roots reggae",
+      "family": "Reggae/Ska"
+    },
+    "sadcore": {
+      "canonical_genre": "sadcore",
+      "family": "Indie/Alternative"
+    },
+    "salsa": {
+      "canonical_genre": "salsa",
+      "family": "Latin"
+    },
+    "samba": {
+      "canonical_genre": "samba",
+      "family": "Latin"
+    },
+    "samba rock": {
+      "canonical_genre": "samba rock",
+      "family": "Latin"
+    },
+    "schlager": {
+      "canonical_genre": "schlager",
+      "family": "Pop"
+    },
+    "score": {
+      "canonical_genre": "score",
+      "family": "Soundtrack/Stage"
+    },
+    "scottish folk": {
+      "canonical_genre": "scottish folk",
+      "family": "Folk/Acoustic"
+    },
+    "screamo": {
+      "canonical_genre": "screamo",
+      "family": "Punk"
+    },
+    "serialism": {
+      "canonical_genre": "serialism",
+      "family": "Classical"
+    },
+    "sertanejo": {
+      "canonical_genre": "sertanejo",
+      "family": "Latin"
+    },
+    "shoegaze": {
+      "canonical_genre": "shoegaze",
+      "family": "Rock"
+    },
+    "show tunes": {
+      "canonical_genre": "show tunes",
+      "family": "Soundtrack/Stage"
+    },
+    "singer songwriter": {
+      "canonical_genre": "singer songwriter",
+      "family": "Folk/Acoustic"
+    },
+    "singer-songwriter": {
+      "canonical_genre": "singer-songwriter",
+      "family": "Folk/Acoustic"
+    },
+    "singer/songwriter": {
+      "canonical_genre": "singer/songwriter",
+      "family": "Folk/Acoustic"
+    },
+    "ska": {
+      "canonical_genre": "ska",
+      "family": "Reggae/Ska"
+    },
+    "ska punk": {
+      "canonical_genre": "ska punk",
+      "family": "Punk"
+    },
+    "ska-punk": {
+      "canonical_genre": "ska-punk",
+      "family": "Punk"
+    },
+    "skate punk": {
+      "canonical_genre": "skate punk",
+      "family": "Punk"
+    },
+    "slacker rock": {
+      "canonical_genre": "slacker rock",
+      "family": "Indie/Alternative"
+    },
+    "slowcore": {
+      "canonical_genre": "slowcore",
+      "family": "Indie/Alternative"
+    },
+    "sludge": {
+      "canonical_genre": "sludge",
+      "family": "Metal"
+    },
+    "sludge metal": {
+      "canonical_genre": "sludge metal",
+      "family": "Metal"
+    },
+    "smooth jazz": {
+      "canonical_genre": "smooth jazz",
+      "family": "Jazz"
+    },
+    "soft rock": {
+      "canonical_genre": "soft rock",
+      "family": "Rock"
+    },
+    "son cubano": {
+      "canonical_genre": "son cubano",
+      "family": "Latin"
+    },
+    "sophisti pop": {
+      "canonical_genre": "sophisti pop",
+      "family": "Pop"
+    },
+    "sophisti-pop": {
+      "canonical_genre": "sophisti-pop",
+      "family": "Pop"
+    },
+    "soukous": {
+      "canonical_genre": "soukous",
+      "family": "World/Regional"
+    },
+    "soul": {
+      "canonical_genre": "soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "soul jazz": {
+      "canonical_genre": "soul jazz",
+      "family": "Jazz"
+    },
+    "soulful house": {
+      "canonical_genre": "soulful house",
+      "family": "Electronic"
+    },
+    "sound collage": {
+      "canonical_genre": "sound collage",
+      "family": "Experimental/Avant-garde"
+    },
+    "soundscape": {
+      "canonical_genre": "soundscape",
+      "family": "Ambient"
+    },
+    "soundscapes": {
+      "canonical_genre": "soundscapes",
+      "family": "Ambient"
+    },
+    "soundtrack": {
+      "canonical_genre": "soundtrack",
+      "family": "Soundtrack/Stage"
+    },
+    "soundtracks": {
+      "canonical_genre": "soundtracks",
+      "family": "Soundtrack/Stage"
+    },
+    "southern hip hop": {
+      "canonical_genre": "southern hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "southern rock": {
+      "canonical_genre": "southern rock",
+      "family": "Rock"
+    },
+    "southern soul": {
+      "canonical_genre": "southern soul",
+      "family": "R&B/Soul/Funk"
+    },
+    "space age pop": {
+      "canonical_genre": "space age pop",
+      "family": "Easy Listening/Lounge"
+    },
+    "space ambient": {
+      "canonical_genre": "space ambient",
+      "family": "Ambient"
+    },
+    "space rock": {
+      "canonical_genre": "space rock",
+      "family": "Rock"
+    },
+    "speech": {
+      "canonical_genre": "speech",
+      "family": "Spoken/Non-music"
+    },
+    "speed metal": {
+      "canonical_genre": "speed metal",
+      "family": "Metal"
+    },
+    "speedcore": {
+      "canonical_genre": "speedcore",
+      "family": "Electronic"
+    },
+    "spiritual jazz": {
+      "canonical_genre": "spiritual jazz",
+      "family": "Jazz"
+    },
+    "spoken": {
+      "canonical_genre": "spoken",
+      "family": "Spoken/Non-music"
+    },
+    "spoken word": {
+      "canonical_genre": "spoken word",
+      "family": "Spoken/Non-music"
+    },
+    "spoken-word": {
+      "canonical_genre": "spoken word",
+      "family": "Spoken/Non-music"
+    },
+    "stand up comedy": {
+      "canonical_genre": "stand up comedy",
+      "family": "Spoken/Non-music"
+    },
+    "stand-up comedy": {
+      "canonical_genre": "stand-up comedy",
+      "family": "Spoken/Non-music"
+    },
+    "stoner metal": {
+      "canonical_genre": "stoner metal",
+      "family": "Metal"
+    },
+    "stoner rock": {
+      "canonical_genre": "stoner rock",
+      "family": "Rock"
+    },
+    "stride": {
+      "canonical_genre": "stride",
+      "family": "Jazz"
+    },
+    "sufi": {
+      "canonical_genre": "sufi",
+      "family": "World/Regional"
+    },
+    "sunshine pop": {
+      "canonical_genre": "sunshine pop",
+      "family": "Pop"
+    },
+    "surf": {
+      "canonical_genre": "surf",
+      "family": "Rock"
+    },
+    "surf rock": {
+      "canonical_genre": "surf rock",
+      "family": "Rock"
+    },
+    "swing": {
+      "canonical_genre": "swing",
+      "family": "Jazz"
+    },
+    "symphonic black metal": {
+      "canonical_genre": "symphonic black metal",
+      "family": "Metal"
+    },
+    "symphonic metal": {
+      "canonical_genre": "symphonic metal",
+      "family": "Metal"
+    },
+    "symphonic prog": {
+      "canonical_genre": "symphonic prog",
+      "family": "Rock"
+    },
+    "symphonic rock": {
+      "canonical_genre": "symphonic rock",
+      "family": "Rock"
+    },
+    "symphony": {
+      "canonical_genre": "symphony",
+      "family": "Classical"
+    },
+    "synth funk": {
+      "canonical_genre": "synth funk",
+      "family": "Electronic"
+    },
+    "synth pop": {
+      "canonical_genre": "synthpop",
+      "family": "Electronic"
+    },
+    "synth-pop": {
+      "canonical_genre": "synthpop",
+      "family": "Electronic"
+    },
+    "synthpop": {
+      "canonical_genre": "synthpop",
+      "family": "Electronic"
+    },
+    "synthwave": {
+      "canonical_genre": "synthwave",
+      "family": "Electronic"
+    },
+    "tango": {
+      "canonical_genre": "tango",
+      "family": "Latin"
+    },
+    "tech house": {
+      "canonical_genre": "tech house",
+      "family": "Electronic"
+    },
+    "technical death metal": {
+      "canonical_genre": "technical death metal",
+      "family": "Metal"
+    },
+    "technical thrash metal": {
+      "canonical_genre": "technical thrash metal",
+      "family": "Metal"
+    },
+    "techno": {
+      "canonical_genre": "techno",
+      "family": "Electronic"
+    },
+    "teen pop": {
+      "canonical_genre": "teen pop",
+      "family": "Pop"
+    },
+    "texas blues": {
+      "canonical_genre": "texas blues",
+      "family": "Blues"
+    },
+    "third stream": {
+      "canonical_genre": "third stream",
+      "family": "Jazz"
+    },
+    "thrash": {
+      "canonical_genre": "thrash",
+      "family": "Metal"
+    },
+    "thrash metal": {
+      "canonical_genre": "thrash metal",
+      "family": "Metal"
+    },
+    "traditional folk": {
+      "canonical_genre": "traditional folk",
+      "family": "Folk/Acoustic"
+    },
+    "traditional jazz": {
+      "canonical_genre": "traditional jazz",
+      "family": "Jazz"
+    },
+    "traditional pop": {
+      "canonical_genre": "traditional pop",
+      "family": "Easy Listening/Lounge"
+    },
+    "trance": {
+      "canonical_genre": "trance",
+      "family": "Electronic"
+    },
+    "trap": {
+      "canonical_genre": "trap",
+      "family": "Hip-Hop/Rap"
+    },
+    "trap music": {
+      "canonical_genre": "trap music",
+      "family": "Hip-Hop/Rap"
+    },
+    "trip hop": {
+      "canonical_genre": "trip-hop",
+      "family": "Electronic"
+    },
+    "trip-hop": {
+      "canonical_genre": "trip-hop",
+      "family": "Electronic"
+    },
+    "tropical house": {
+      "canonical_genre": "tropical house",
+      "family": "Electronic"
+    },
+    "tropicalia": {
+      "canonical_genre": "tropicalia",
+      "family": "Latin"
+    },
+    "tropicália": {
+      "canonical_genre": "tropicália",
+      "family": "Latin"
+    },
+    "turkish folk": {
+      "canonical_genre": "turkish folk",
+      "family": "World/Regional"
+    },
+    "turntablism": {
+      "canonical_genre": "turntablism",
+      "family": "Hip-Hop/Rap"
+    },
+    "tuvan throat singing": {
+      "canonical_genre": "tuvan throat singing",
+      "family": "World/Regional"
+    },
+    "twee": {
+      "canonical_genre": "twee",
+      "family": "Indie/Alternative"
+    },
+    "twee pop": {
+      "canonical_genre": "twee pop",
+      "family": "Indie/Alternative"
+    },
+    "uk bass": {
+      "canonical_genre": "uk bass",
+      "family": "Electronic"
+    },
+    "uk drill": {
+      "canonical_genre": "uk drill",
+      "family": "Hip-Hop/Rap"
+    },
+    "uk funky": {
+      "canonical_genre": "uk funky",
+      "family": "Electronic"
+    },
+    "uk garage": {
+      "canonical_genre": "uk garage",
+      "family": "Electronic"
+    },
+    "uk hip hop": {
+      "canonical_genre": "uk hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "uk hip-hop": {
+      "canonical_genre": "uk hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "ukg": {
+      "canonical_genre": "ukg",
+      "family": "Electronic"
+    },
+    "underground hip hop": {
+      "canonical_genre": "underground hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "underground hip-hop": {
+      "canonical_genre": "underground hip-hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "vaporwave": {
+      "canonical_genre": "vaporwave",
+      "family": "Electronic"
+    },
+    "vgm": {
+      "canonical_genre": "vgm",
+      "family": "Soundtrack/Stage"
+    },
+    "video game music": {
+      "canonical_genre": "video game music",
+      "family": "Soundtrack/Stage"
+    },
+    "viking metal": {
+      "canonical_genre": "viking metal",
+      "family": "Metal"
+    },
+    "vocal jazz": {
+      "canonical_genre": "vocal jazz",
+      "family": "Jazz"
+    },
+    "vocal pop": {
+      "canonical_genre": "vocal pop",
+      "family": "Easy Listening/Lounge"
+    },
+    "west coast hip hop": {
+      "canonical_genre": "west coast hip hop",
+      "family": "Hip-Hop/Rap"
+    },
+    "west coast rap": {
+      "canonical_genre": "west coast rap",
+      "family": "Hip-Hop/Rap"
+    },
+    "western": {
+      "canonical_genre": "western",
+      "family": "Country/Americana"
+    },
+    "western swing": {
+      "canonical_genre": "western swing",
+      "family": "Country/Americana"
+    },
+    "witch house": {
+      "canonical_genre": "witch house",
+      "family": "Electronic"
+    },
+    "wonky": {
+      "canonical_genre": "wonky",
+      "family": "Electronic"
+    },
+    "world": {
+      "canonical_genre": "world",
+      "family": "World/Regional"
+    },
+    "world fusion": {
+      "canonical_genre": "world fusion",
+      "family": "World/Regional"
+    },
+    "world music": {
+      "canonical_genre": "world music",
+      "family": "World/Regional"
+    },
+    "yacht rock": {
+      "canonical_genre": "yacht rock",
+      "family": "Rock"
+    }
+  },
+  "aliases": {
+    "hiphop": "hip-hop",
+    "hip hop": "hip-hop",
+    "trip hop": "trip-hop",
+    "post rock": "post-rock",
+    "post punk": "post-punk",
+    "synth pop": "synthpop",
+    "synth-pop": "synthpop",
+    "electro pop": "electropop",
+    "drum & bass": "drum and bass",
+    "dnb": "drum and bass",
+    "indie-pop": "indie pop",
+    "neo soul": "neo-soul",
+    "neosoul": "neo-soul",
+    "rnb": "r&b",
+    "lo fi": "lo-fi",
+    "lofi": "lo-fi",
+    "jazz-funk": "jazz funk",
+    "jazz-fusion": "jazz fusion",
+    "nu-jazz": "nu jazz",
+    "nujazz": "nu jazz",
+    "dance-punk": "dance punk",
+    "spoken-word": "spoken word",
+    "new-age": "new age",
+    "hip-hop/rap": "hip-hop",
+    "hip hop/rap": "hip-hop",
+    "rap/hip-hop": "hip-hop",
+    "rap/hip hop": "hip-hop",
+    "alternative rnb": "alternative r&b"
+  },
+  "notes": [
+    "Family assignments are local editorial categories, not official Last.fm categories.",
+    "Mood/instrument/year/personal tags are not sufficient genre evidence.",
+    "Source weights are not confidence probabilities or verified absolute vote counts."
+  ]
+}

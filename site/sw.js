@@ -1,0 +1,6 @@
+/* Cache static application files only. Imported history never goes through fetch. */
+const CACHE='merlin-static-977e92c8a0de';
+const FILES=['./','index.html','styles.css','app.js','data-core.js','worker.js','chart-frame.html','enrichment-prompt.txt','enrichment-kit.zip','assets/fonts.css','assets/geist-400.ttf','assets/geist-500.ttf','assets/geist-600.ttf','assets/geist-mono-400.ttf','assets/geist-mono-500.ttf','assets/wordmark-400.ttf','assets/favicon.svg','assets/view-1.webp','assets/view-2.webp','assets/view-3.webp','assets/view-4.webp','assets/view-5.webp','assets/view-6.webp'];
+self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()))});
+self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('merlin-static-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||new URL(event.request.url).origin!==self.location.origin)return;event.respondWith(caches.open(CACHE).then(cache=>cache.match(event.request)).then(cached=>cached||fetch(event.request)))});

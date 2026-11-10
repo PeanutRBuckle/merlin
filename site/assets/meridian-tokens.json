@@ -1,0 +1,66 @@
+{
+  "name": "Meridian",
+  "version": 1,
+  "color": {
+    "themes": [{"id": "light", "name": "Light"}, {"id": "dark", "name": "Dark"}],
+    "tokens": [
+      {"name": "paper", "value": {"light": "#f6f5f0", "dark": "#0c0c12"}, "usage": "Page background. The neutral ground everything else sits on."},
+      {"name": "paper-raised", "value": {"light": "#ffffff", "dark": "#16161f"}, "usage": "Cards, panels, menus, inputs — anything lifted off paper."},
+      {"name": "line", "value": {"light": "#dedcd3", "dark": "#2a2a36"}, "usage": "Hairline dividers and card edges. Decorative only; never the sole boundary of a control."},
+      {"name": "line-strong", "value": {"light": "#85838c", "dark": "#6a6974"}, "usage": "Input and control borders (3:1 on paper and paper-raised in both themes)."},
+      {"name": "ink", "value": {"light": "#111114", "dark": "#f2f1ec"}, "usage": "Primary text and dark blocks, on paper and paper-raised."},
+      {"name": "ink-muted", "value": {"light": "#5c5b63", "dark": "#a2a1ab"}, "usage": "Secondary text, metadata, placeholder — on paper and paper-raised (6:1+ in both themes)."},
+      {"name": "ultra", "value": {"light": "#2e2bf5", "dark": "#4441ff"}, "usage": "The signature. Full-bleed brand fields, primary buttons, selected states. Fill only — text on it is on-ultra. On dark paper it holds 3:1 as a shape."},
+      {"name": "ultra-hover", "value": {"light": "#1d1ab8", "dark": "#5a57ff"}, "usage": "Hover and pressed fill for anything painted ultra; also the deep companion block in brand compositions."},
+      {"name": "ultra-soft", "value": {"light": "#e6e5ff", "dark": "#1b1a4a"}, "usage": "Quiet tinted ground: selected rows, info callouts, behind ultra-ink text."},
+      {"name": "ultra-ink", "value": {"light": "#2e2bf5", "dark": "#8f8cff"}, "usage": "Brand color as TEXT or icon: links, active nav, numbers you want noticed — on paper, paper-raised and ultra-soft (5.7:1+ both themes)."},
+      {"name": "on-ultra", "value": {"light": "#ffffff", "dark": "#ffffff"}, "usage": "Text and icons on an ultra or ultra-hover fill (7.5:1 light, 6.1:1 dark)."},
+      {"name": "focus-ring", "value": "{ultra-ink}", "usage": "Keyboard focus: 2px solid ring with a 2px paper-colored gap. Alias of ultra-ink so it clears 3:1 on every surface."},
+      {"name": "success", "value": {"light": "#117a4b", "dark": "#4fd18f"}, "usage": "Success text and icons on paper and paper-raised. Always paired with a word or icon, never color alone."},
+      {"name": "danger", "value": {"light": "#c62e1a", "dark": "#ff7a66"}, "usage": "Errors and destructive actions, as text or icon on paper and paper-raised. Always paired with a word or icon."}
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "\"Geist\", ui-sans-serif, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+      "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", Menlo, monospace"
+    },
+    "groups": [
+      {"name": "Text", "family": "sans", "note": "One family, Geist (Google Fonts, hosted). Tight, heavy headlines; relaxed body.", "styles": [
+        {"name": "display", "fontSize": "72px", "lineHeight": "72px", "fontWeight": 600, "letterSpacing": "-0.035em", "sample": "Know where you stand.", "usage": "Hero statements, usually on an ultra field. One per screen at most."},
+        {"name": "headline", "fontSize": "40px", "lineHeight": "44px", "fontWeight": 600, "letterSpacing": "-0.025em", "sample": "Portfolio overview", "usage": "Page titles."},
+        {"name": "title", "fontSize": "22px", "lineHeight": "28px", "fontWeight": 600, "letterSpacing": "-0.01em", "sample": "Recent activity", "usage": "Section and card titles."},
+        {"name": "body", "fontSize": "16px", "lineHeight": "24px", "fontWeight": 400, "sample": "Everything you need, nothing you don't.", "usage": "Default reading text."},
+        {"name": "body-sm", "fontSize": "14px", "lineHeight": "20px", "fontWeight": 400, "sample": "Updated 4 minutes ago", "usage": "Dense UI: tables, form help text, secondary copy."}
+      ]},
+      {"name": "Mono", "family": "mono", "note": "Geist Mono is the technical accent: labels, numbers, code.", "styles": [
+        {"name": "label", "fontSize": "12px", "lineHeight": "16px", "fontWeight": 500, "letterSpacing": "0.06em", "sample": "STATUS · LIVE", "usage": "Eyebrows, tags, table headers. Set in uppercase."},
+        {"name": "numeric", "fontSize": "14px", "lineHeight": "20px", "fontWeight": 400, "sample": "$1,284,300.00", "usage": "Figures in tables and stats, so columns align."},
+        {"name": "code", "fontSize": "13px", "lineHeight": "20px", "fontWeight": 400, "sample": "const meridian = true;", "usage": "Inline and block code."}
+      ]}
+    ]
+  },
+  "spacing": {
+    "note": "A 4px grid. Prefer the larger steps between sections — whitespace is part of the brand.",
+    "tokens": [
+      {"name": "space-1", "value": "4px", "usage": "Icon-to-label gaps, tight insets."},
+      {"name": "space-2", "value": "8px", "usage": "Gaps inside controls and chips."},
+      {"name": "space-3", "value": "12px", "usage": "Button vertical padding, list-row gaps."},
+      {"name": "space-4", "value": "16px", "usage": "Default gutter, card padding on mobile, button horizontal padding."},
+      {"name": "space-6", "value": "24px", "usage": "Card padding, gaps between related blocks."},
+      {"name": "space-8", "value": "32px", "usage": "Gaps between cards and form groups."},
+      {"name": "space-12", "value": "48px", "usage": "Between page sections."},
+      {"name": "space-16", "value": "64px", "usage": "Hero padding and the edges of brand fields."}
+    ]
+  },
+  "radius": {
+    "note": "Mostly square. Corners stay small so color fields read as confident slabs.",
+    "tokens": [
+      {"name": "radius-none", "value": "0px", "usage": "Brand fields, hero bands, full-bleed sections."},
+      {"name": "radius-sm", "value": "4px", "usage": "Buttons, inputs, tags."},
+      {"name": "radius-md", "value": "8px", "usage": "Cards, menus, dialogs."},
+      {"name": "radius-pill", "value": "999px", "usage": "Status dots and toggles only."}
+    ]
+  }
+}
