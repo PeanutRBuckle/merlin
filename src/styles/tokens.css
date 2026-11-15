@@ -1,0 +1,37 @@
+/* Merlin design tokens: Meridian, illuminated. Values copied from the approved mockup tokens.css. */
+:root {
+  --paper: #f6f5f0;
+  --paper-raised: #ffffff;
+  --line: #dedcd3;
+  --line-strong: #85838c;
+  --ink: #111114;
+  --ink-muted: #5c5b63;
+  --ultra: #2e2bf5;
+  --ultra-hover: #1d1ab8;
+  --ultra-soft: #e6e5ff;
+  --ultra-ink: #2e2bf5;
+  --on-ultra: #ffffff;
+  --focus-ring: #2e2bf5;
+  --success: #117a4b;
+  --danger: #c62e1a;
+
+  --gilt-on-ultra: #f0c04a;
+  --gilt: #c99a1e;
+  --gilt-ink: #8a6510;
+  --rubric: #b5361c;
+  --verdigris: #2b7a68;
+  --vellum: #f1ead8;
+  --vellum-panel: #fbf8f0;
+
+  --ramp-0: #f1ead8; --ramp-1: #d9d8ff; --ramp-2: #a9a7ff; --ramp-3: #6f6cff; --ramp-4: #2e2bf5; --ramp-5: #1d1ab8;
+  --cat-1: #2e2bf5; --cat-2: #c99a1e; --cat-3: #b5361c; --cat-4: #2b7a68; --cat-5: #111114; --cat-6: #a9a7ff;
+
+  --font-ceremonial: 'UnifrakturMaguntia', serif;
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --frame: 3px double var(--ink);
+}

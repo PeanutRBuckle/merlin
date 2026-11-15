@@ -1,0 +1,38 @@
+{
+  "name": "merlin",
+  "version": "0.2.0",
+  "private": true,
+  "packageManager": "npm@11.19.0",
+  "engines": { "node": ">=26.7.0 <27" },
+  "description": "Merlin Music Magic — real-history Codex frontend",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "deploy:check": "npm run build && wrangler deploy --dry-run",
+    "preview:cloudflare": "wrangler dev --local --ip 127.0.0.1 --port 8788",
+    "test": "vitest run",
+    "test:legacy": "node tests/test-data.js && node tests/test-enrichment-merge.js",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.10",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "jsdom": "^31.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0",
+    "wrangler": "4.162.0"
+  }
+}

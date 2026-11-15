@@ -2,6 +2,14 @@
 
 Music Magic. A browser-first explorer for Spotify listening history.
 
+## Codex v2 development
+
+The new illuminated Codex interface is being developed alongside the original explorer below. From the repository root, run `npm ci` and `npm run dev`, then open `http://127.0.0.1:5180`. See [v2 development](docs/v2-development.md) for build, tests, privacy boundaries and the later Supabase connection checklist.
+
+This milestone is local-only: JSON/ZIP import, real-history charts and prepared-data export work without accounts or API keys. Google sign-in, cloud persistence, server enrichment, Oracle responses and email reminders are not connected.
+
+V2 targets **Cloudflare Workers Static Assets**. Follow [the Cloudflare deployment guide](docs/cloudflare-deployment.md): build `npm run build`, deploy `npx wrangler deploy`, assets `dist`. Use the pushed v2 branch rather than the old `main` snapshot for the first test deployment. The existing Netlify configuration and the original explorer instructions below remain for the v1 app; they are not the v2 hosting target.
+
 ![Merlin home](docs/merlin-home.png)
 
 ## For people using the app
