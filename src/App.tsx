@@ -1,4 +1,6 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
+import { getBrowserAuth } from './auth/browser';
+import type { AuthController, AuthSnapshot } from './auth/controller';
 import type { HistoryData } from './data/types';
 import { createSession, type CodexSession, type ImportFileResult } from './components/session';
 import { LandingPage } from './pages/LandingPage';
@@ -19,7 +21,14 @@ function routeFromHash(): string {
  * App shell: lightweight hash router over per-tab local state.
  * Routes: '' (landing), agreements, upload, binding, codex, account, oracle, discover.
  */
-export function App(): React.JSX.Element {
+export function App({ auth = getBrowserAuth() }: { auth?: AuthController }): React.JSX.Element {
+  const authState = useSyncExternalStore(auth.subscribe, auth.getSnapshot);
+  useEffect(() => { void auth.initialize(); }, [auth]);
+  // Remount the entire tab-local workspace on identity transitions, cancelling import subscribers too.
+  return <LocalApp key={authState.identityVersion} auth={auth} authState={authState} />;
+}
+
+function LocalApp({ auth, authState }: { auth: AuthController; authState: AuthSnapshot }): React.JSX.Element {
   const [route, setRoute] = useState<string>(routeFromHash);
   const [picked, setPicked] = useState<File[]>([]);
   const [session, setSession] = useState<CodexSession | null>(null);
@@ -75,6 +84,8 @@ export function App(): React.JSX.Element {
       case 'account':
         return (
           <AccountPage
+            auth={auth}
+            authState={authState}
             session={session}
             onClear={() => {
               setSession(null);
@@ -88,9 +99,9 @@ export function App(): React.JSX.Element {
       case 'discover':
         return <DiscoverPage />;
       case '':
-        return <LandingPage />;
+        return <LandingPage auth={auth} authState={authState} />;
       default:
-        return <LandingPage />;
+        return <LandingPage auth={auth} authState={authState} />;
     }
   };
 

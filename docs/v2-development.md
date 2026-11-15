@@ -38,7 +38,7 @@ The Python browser suites need the packages in `requirements-dev.txt` and either
 
 ## Service boundaries
 
-The first milestone is local-only and requires no API keys. Authentication, consent records, cloud saving, server-side enrichment, AI responses and reminder emails are separate integrations. Disabled controls must explain their unavailable state; no simulated account, scheduled email or canned Oracle result is a substitute for an integration.
+History import/export remains local-only and requires no API keys. Optional Google authentication is implemented through Supabase; see [Google authentication](google-authentication.md). A sign-in session is separate from listening history. Consent records, cloud saving, server-side enrichment, AI responses and reminder emails remain unavailable. Disabled controls must explain their unavailable state; no simulated account, scheduled email or canned Oracle result is a substitute for an integration.
 
 Do not put Supabase service-role credentials, AI provider secrets or enrichment keys in Vite environment variables. Browser-exposed configuration is public. Future backend code must independently enforce authentication, ownership, consent versions and resource limits.
 

@@ -4,7 +4,7 @@ This repository contains two applications: the original ready-built explorer in 
 
 ## What this deploys
 
-The current Codex is a local-only history explorer. Google sign-in, cloud saving, server enrichment, Oracle answers and reminder emails are not connected. Disabled controls describe these boundaries. Imported histories remain in browser-tab memory, and export works without API keys. Do not promise accounts or saved histories from a successful static deployment.
+The Codex keeps listening history in browser-tab memory. Google sign-in is optional and enabled only when the public Supabase build configuration is present at an approved origin. Cloud history saving, server enrichment, Oracle answers and reminder emails remain unavailable. Signing in sends basic Google profile information to Supabase and persists the authentication session in browser storage; it never uploads imported history. A successful static deployment does not establish a completed OAuth round trip.
 
 `wrangler.json` configures a static-assets-only Worker called `merlinmusic`. No backend Worker source, database bindings, domains or DNS routes are provisioned by this file. The existing `netlify.toml` remains as the original app's historical configuration and is not the v2 hosting target.
 
@@ -19,7 +19,7 @@ For the first test deployment, select these settings only after the current bran
 | Repository | `PeanutRBuckle/merlin` |
 | Worker/application name | `merlinmusic` — must match `wrangler.json` |
 | Production branch for this test app | `feat/merlin-v2` — do not select the old `main` branch |
-| Root directory | Repository root; do not select `site/` |
+| Root directory | Clear this field completely and leave it blank; do not enter `site/` |
 | Build command | `npm run build` |
 | Deploy command | `npx wrangler deploy` |
 | Static asset directory | `dist`, already declared in `wrangler.json` |
@@ -34,7 +34,12 @@ If you choose another application name, update `wrangler.json` to match before d
 
 ## Variables and credentials
 
-No Supabase variables are required for the current local-only frontend. The Supabase project can remain separate while hosting is connected. Public browser configuration will be added to the build when the authentication implementation uses it.
+To enable optional Google sign-in, open Cloudflare → Workers & Pages → merlinmusic → Settings → Build → Build variables and secrets. Add both variables to this Git build environment (not the separate runtime Variables & Secrets section), then build the intended revision:
+
+- `VITE_SUPABASE_URL`: the project's HTTPS API URL.
+- `VITE_SUPABASE_PUBLISHABLE_KEY`: its `sb_publishable_...` browser key.
+
+Without these, file import and export still work and the sign-in control remains disabled. `.env.local` configures only local builds and is not sent to Cloudflare. See [Google authentication](google-authentication.md) for exact redirect URLs, scope/session handling and the real-user acceptance check.
 
 Never add a Supabase secret/service-role key, database password, AI provider secret or personal history to browser-visible Vite variables, Git or `public/`. A `VITE_` prefix makes a value public, not secure. `.env.local` remains ignored and is not uploaded with the repository.
 

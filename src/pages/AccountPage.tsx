@@ -3,6 +3,9 @@ import { Chrome } from '../components/Chrome';
 import { formatIsoDate, formatInt, formatPercent } from '../components/format';
 import { aggregateHistory } from '../data/aggregates';
 import type { CodexSession } from '../components/session';
+import type { AuthController, AuthSnapshot } from '../auth/controller';
+import { GoogleButton } from '../auth/GoogleButton';
+import { SIGN_IN_WARNING } from './LandingPage';
 
 /**
  * Account — truthful local-session profile. No sample name or email; the
@@ -13,10 +16,17 @@ import type { CodexSession } from '../components/session';
 export function AccountPage({
   session,
   onClear,
+  auth,
+  authState,
 }: {
+  auth: AuthController;
+  authState: AuthSnapshot;
   session: CodexSession | null;
   onClear: () => void;
 }): React.JSX.Element {
+  const profileName = typeof authState.user?.user_metadata.full_name === 'string' ? authState.user.user_metadata.full_name : 'Google account';
+  const initial = authState.user ? profileName.slice(0, 1).toUpperCase() : 'L';
+  const [confirmSignOut, setConfirmSignOut] = useState(false);
   const [confirming, setConfirming] = useState(false);
   const [cleared, setCleared] = useState(false);
   const [confirmChecked, setConfirmChecked] = useState(false);
@@ -51,18 +61,31 @@ export function AccountPage({
 
   return (
     <div style={{ background: 'var(--paper)', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <Chrome route="account" initial="L" />
+      <Chrome route="account" initial={initial} />
       <main className="account-main">
         <h1 style={{ margin: 0, font: '600 32px/1.15 var(--font-display)' }}>Account</h1>
 
         <section aria-label="Profile" className="panel" style={{ display: 'flex', alignItems: 'center', gap: 18, flexWrap: 'wrap' }}>
-          <span aria-hidden="true" style={{ width: 56, height: 56, borderRadius: '50%', background: 'var(--ultra)', color: 'var(--gilt-on-ultra)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: '400 30px/1 var(--font-ceremonial)' }}>L</span>
+          <span aria-hidden="true" style={{ width: 56, height: 56, borderRadius: '50%', background: 'var(--ultra)', color: 'var(--gilt-on-ultra)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: '400 30px/1 var(--font-ceremonial)' }}>{initial}</span>
           <div style={{ flex: 1, minWidth: 180, display: 'flex', flexDirection: 'column' }}>
-            <strong style={{ fontSize: 17, fontWeight: 600 }}>Local session</strong>
-            <span className="muted">Your Codex · no account connected</span>
+            <strong style={{ fontSize: 17, fontWeight: 600 }}>{authState.user ? profileName : 'Local session'}</strong>
+            <span className="muted" style={{ overflowWrap: 'anywhere' }}>{authState.user ? authState.user.email : 'Your Codex · no account connected'}</span>
           </div>
-          <a href="#/" className="btn" style={{ textDecoration: 'none' }}>Sign out</a>
+          {authState.user ? <button type="button" className="btn" disabled={authState.loading || authState.busy} onClick={() => { if (session) setConfirmSignOut(true); else void auth.signOut(); }}>Sign out</button> : <a href="#/" className="btn">Return to Merlin</a>}
+          {!authState.user && authState.configured ? <GoogleButton auth={auth} state={authState} /> : null}
+          {!authState.user && authState.configured ? <p role="note" style={{ flexBasis: '100%', margin: 0, fontSize: 13, lineHeight: 1.5 }}>{SIGN_IN_WARNING}</p> : null}
         </section>
+
+        {confirmSignOut ? <div role="alertdialog" aria-label="Sign out and clear local history" className="panel">
+          <p>Signing out clears this tab’s imported history. Download your data first if you need a copy.</p>
+          <button type="button" className="btn" onClick={() => setConfirmSignOut(false)}>Cancel</button>
+          <button type="button" className="btn btn-danger" disabled={authState.busy} onClick={() => { setConfirmSignOut(false); void auth.signOut(); }}>Sign out and clear this tab</button>
+        </div> : null}
+        {authState.error ? <p role="alert">{authState.error}</p> : null}
+        <p className="muted" style={{ margin: 0 }}>
+          Your sign-in session is stored in this browser separately from listening history. Google and Supabase process basic profile information for sign-in.
+          Listening history stays in this tab; cloud history saving is unavailable. Changing accounts or signing out clears this tab’s imported history.
+        </p>
 
         <section aria-labelledby="h-hist" className="panel" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
           <h2 id="h-hist">Your history</h2>
@@ -114,7 +137,7 @@ export function AccountPage({
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
                 <span className="muted">
                   Erases the codex, imported files and Oracle state from this browser tab.
-                  This is not the same as deleting a cloud account — no cloud data exists.
+                  This does not sign you out or delete your Supabase authentication account. No listening history is saved in the cloud.
                 </span>
                 <button type="button" className="btn btn-danger" onClick={() => setConfirming(true)}>Clear local memory</button>
               </div>
@@ -145,8 +168,8 @@ export function AccountPage({
             </div>
           )}
           <p className="muted" style={{ margin: 0, fontSize: 13 }}>
-            Delete-account is unavailable: there is no cloud account in this
-            version, and reminder emails cannot be scheduled either.
+            Account deletion is not implemented yet. To request deletion of an authentication account, contact the Merlin project owner.
+            Reminder emails are also unavailable.
           </p>
         </section>
         <a ref={downloadRef} href="#" download="merlin-history.json" className="sr-only" aria-hidden="true" tabIndex={-1}>download</a>

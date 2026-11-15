@@ -25,11 +25,13 @@ async function bind(page: Page, zip = false) {
   await expect(page.getByRole('heading', { name: 'The Litany', exact: true })).toBeVisible();
 }
 
-test('landing is honest about unconnected authentication and has no mobile overflow', async ({ page }, info) => {
+test('landing keeps local import available and has no mobile overflow', async ({ page }, info) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/');
-  await expect(page.getByRole('button', { name: 'Continue with Google' })).toBeDisabled();
+  const google = page.getByRole('button', { name: 'Sign in with Google' });
+  if (process.env.MERLIN_AUTH_CONFIGURED === '0') await expect(google).toBeDisabled();
+  else await expect(google).toBeEnabled();
   await expect(page.getByRole('link', { name: /Try with my files/i })).toBeVisible();
   expect(await page.getByRole('link', { name: /Try with my files/i }).evaluate(element => getComputedStyle(element).color)).toBe('rgb(46, 43, 245)');
   expect((await page.getByRole('link', { name: /Request my Spotify data/i }).boundingBox())?.height).toBeGreaterThanOrEqual(44);

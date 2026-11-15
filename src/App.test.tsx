@@ -94,9 +94,9 @@ beforeEach(() => {
 describe('Landing', () => {
   it('keeps Google sign-in disabled and truthfully explains it', async () => {
     render(<App />);
-    const google = screen.getByRole('button', { name: /continue with google/i });
+    const google = screen.getByRole('button', { name: /sign in with google/i });
     expect(google).toBeDisabled();
-    expect(screen.getByText(/google sign-in is not connected yet/i)).toBeInTheDocument();
+    expect(screen.getByText(/google sign-in is not configured/i)).toBeInTheDocument();
   });
 
   it('offers the explicit local-only path into upload', async () => {

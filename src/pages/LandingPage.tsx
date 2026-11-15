@@ -1,12 +1,16 @@
 import { useState } from 'react';
 import { FolioArt } from '../components/Chrome';
+import { GoogleButton } from '../auth/GoogleButton';
+import type { AuthController, AuthSnapshot } from '../auth/controller';
 
 /**
  * Landing — blue page, wordmark left, framed art right.
- * Google sign-in is NOT connected in this milestone: the button is disabled and
- * says so. The explicit local-only path is "Try with my files".
+ * Google sign-in is optional; the explicit local-only path remains available.
  */
-export function LandingPage(): React.JSX.Element {
+const SIGN_IN_WARNING = 'Signing in with Google navigates away and clears this tab’s imported listening history. Export or download your history first if you need a copy.';
+export { SIGN_IN_WARNING };
+
+export function LandingPage({ auth, authState }: { auth: AuthController; authState: AuthSnapshot }): React.JSX.Element {
   const [draftNotice, setDraftNotice] = useState<string | null>(null);
   return (
     <main className="rite">
@@ -15,13 +19,12 @@ export function LandingPage(): React.JSX.Element {
           <h1 className="wordmark">Merlin</h1>
           <p className="wordmark-sub">Music Magic</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10, maxWidth: 280, marginTop: 14 }} aria-live="polite">
-            <button type="button" className="btn btn-white" disabled>
-              <span className="google-dots" aria-hidden="true" />
-              Continue with Google
-            </button>
+            {authState.user ? <a href="#/account" className="btn btn-white">My account</a> : <GoogleButton auth={auth} state={authState} />}
+            {!authState.user ? <p role="note" style={{ margin: 0, fontSize: 13, lineHeight: 1.5 }}>{SIGN_IN_WARNING}</p> : null}
+            {authState.error ? <p role="alert">{authState.error}</p> : null}
             <p style={{ margin: 0, fontSize: 13, lineHeight: 1.5 }}>
-              Google sign-in is not connected yet. You can still turn your own
-              history into a codex — everything stays in this browser tab.
+              {!authState.configured ? 'Google sign-in is not configured for this build. ' : 'Signing in shares your basic Google profile with Supabase for your Merlin account. '}
+              Listening history stays in this browser tab and is never uploaded. Cloud saving is unavailable.
             </p>
             <a href="#/upload" className="btn-white" style={{ textDecoration: 'none' }}>
               Try with my files
